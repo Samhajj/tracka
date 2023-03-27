@@ -1,0 +1,125 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  width: 100%;
+  height: auto;
+
+}
+
+:root{
+    --poppins:font-family: 'Poppins', sans-serif;
+    --rubik:font-family: 'Rubik', sans-serif;
+    --main-color: white;
+    --color1: #1b4e63;
+    --color2:#1b4e633d;
+    --color3: #333;
+
+}
+
+#project-worked{
+    width: 100%;
+    height: 90vh;
+    background: url(image/mapbg.svg);
+    background-position: left;
+    background-repeat: repeat-y;
+    padding-top: 70px;
+    overflow: hidden !important;
+    margin-top: 50px;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 47% 53%;
+    padding: 0 110px;
+}
+
+.title {
+margin-top: 0 0 10px;
+font-family: 'Rubik', sans-serif; ;
+
+}
+
+.title h2{
+font-size: 32px;
+font-weight: 700;
+}
+
+.text{
+    width: 100%;
+margin: 10px 0;
+}
+
+.text p{
+    font-size: 17px;
+font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+ line-height: 1.5;
+}
+
+.text-list{
+    font-family: 'Poppins', sans-serif ;
+}
+
+.text-list p{
+    color: var(--color2);
+font-size: 40px !important;
+font-family: 'Raleway', sans-serif;
+}
+.text-list span{
+    color: var(--color3);
+font-size: 17px;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+
+.divider{
+    width: 103%;
+    height: 15px;
+    background: var(--color1);
+    margin: 50px 0;
+}
+
+.counters{
+    display: grid;
+    grid-template-columns: 30% 1% 30% 1% 30%;
+    column-gap: 30px;
+}
+/* General class for each counter container  */
+.counter{
+ font-family: 'Raleway', sans-serif;
+
+}
+/* General class for each counter  */
+.project-counter{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* General class for each counter title  */
+
+.project-text{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color3);
+}
+
+.project-text p{
+    font-size: 16px;
+}
+
+.counter-divider{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.247);
+}
